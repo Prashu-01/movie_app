@@ -1,0 +1,54 @@
+.hero {
+    background-position: center center;
+    background: url('../images/movieverse.png');
+    background-attachment: fixed;
+    object-fit: cover;
+    width: 100%;
+    height: max-content;
+    padding: 2rem 0 1rem 0;
+    margin-bottom: 1.4rem;
+}
+
+.left {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.topic {
+    text-align: center;
+    padding: 2rem auto;
+}
+.allshows{
+    border: 1px solid rgb(255, 218, 8);
+    width: 80%;
+    margin: auto;
+    background-color: rgb(255, 252, 233);
+}
+.contain{
+    width: 80% !important;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    background-color: rgb(255, 218, 8);
+}
+.right{
+    background-color: rgb(255, 246, 194);
+    height: max-content;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 1000px) {
+    .container, .contain, .allshows {
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .contain {
+        flex-direction: column;
+        text-align:center !important;
+    }
+    
+}

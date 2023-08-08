@@ -1,0 +1,65 @@
+.show-c {
+    /* display: flex; */
+    background: transparent;
+    /* flex-direction: column; */
+    width: 20rem;
+    height: max-content;
+    overflow: hidden;
+    border-radius: 7px;
+    margin: 1rem auto;
+}
+
+.content {
+    padding: 1rem;
+    background-color: #242424ce;
+    color: white;
+    /* width:15rem; */
+    text-align: center;
+}
+
+.title {
+    font-weight: 700;
+    margin: 0.2rem auto;
+}
+.rate{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 .5rem 0;
+}
+.show-img {
+    width: 20rem;
+    height: 25rem;
+}
+
+.fa-star {
+    color: rgb(255, 218, 8);
+}
+.genre{
+    color: rgb(244, 244, 244);
+}
+.view {
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(255, 218, 8);
+    padding: 0.2rem 0.7rem;
+    transition: all .2s;
+}
+.card{
+    margin: 1rem;
+    width: max-content;
+    overflow: hidden;
+}
+.card-body{
+    text-align: center;
+    position: absolute;
+    
+    backdrop-filter: brightness(.5) blur(2px);
+    color: white;
+    width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    .card {
+        margin: 1rem auto;
+    }    
+}
